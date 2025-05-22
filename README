@@ -1,0 +1,20 @@
+# XYZ‑Company CRUD UI
+
+A lightweight Streamlit dashboard that lets non‑technical users **Create, Read, Update, and Delete** rows in the `xyz_company` MySQL database—no SQL required.
+
+---
+
+## Quick Start
+
+```bash
+# 1. Clone or download this repo, then open a terminal in the folder
+cd path/to/XYZ_Database_Project_FaarisKhan
+
+# 2. Install the only Python dependencies
+pip install streamlit mysql-connector-python pandas
+
+# 3. Make sure MySQL is running locally and the xyz_company schema exists
+#    (run xyz_company_schema.sql + UniversalSeed.sql if you haven’t).
+
+# 4. Launch the web UI on port 3000
+streamlit run app.py --server.port 3000
